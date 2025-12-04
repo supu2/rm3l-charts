@@ -58,7 +58,7 @@ spec:
       {{- end }}
       {{- if .Values.bootstrapEnabled }}
       initContainers:
-      - image: busybox:1.35
+      - image: docker.io/library/busybox:1.35
         name: configurator
         imagePullPolicy: Always
         resources:
