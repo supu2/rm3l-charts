@@ -8,7 +8,7 @@ deploymentType: Deployment
 replicaCount: 1
 
 image:
-  repository: adguard/adguardhome
+  repository: docker.io/adguard/adguardhome
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
